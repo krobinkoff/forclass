@@ -1,8 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bree+Serif|Montserrat');
 body {
-  background: lightgreen;
-  font-size: 200%
+	background: Azure;
+	font-size: 100%;
+	font-family: 'Arvo', serif;
 }
-
+h1, h3, h4, h5, h6 {
+	color: Gold;
+	font-family: 'Bree Serif', serif;
+}
+h2 {
+	color: LightSalmon;
+}
+a {
+	color: DarkOrange;
+}
 p{
-color: teal
+	color: DarkSlateGray; 
+	font-family: 'Montserrat', sans-serif;
+}
+header {
+	font-color: LightCyan;
+	background: teal;
+}
+footer {
+	text-align: center;
+	background: teal;
+	padding: 1rem 0;
+}
+footer a {
+	color: white;
+	font-size: 1rem;
+	padding: .75rem;
+}
+footer a:hover {
+	color: #FFB308;
+}
+footer a:first-of-type:hover {
+	color: green;
+}
+footer p::first-letter {
+	color: LightCyan;
+	font-size: 200%;
+}
+aside {
+	background-color: Beige;
+}
+.special {
+	background-color: Moccasin;
+}
+#unique {
+	background-color: RosyBrown;
 }
