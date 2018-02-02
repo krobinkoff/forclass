@@ -11,6 +11,8 @@ body {
 h1, h3, h4, h5, h6 {
 	color: Gold;
 	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+	font-kerning: normal;
 }
 h1 {
 	border-bottom: 8px groove DarkCyan;
@@ -31,6 +33,11 @@ a {
 p {
 	color: black; 
 	font-family: 'Montserrat', sans-serif;
+	font-stretch: expanded;
+}
+section {
+	text-align: justify;
+    text-justify: inter-word;
 }
 header {
 	border: 10px double powderblue;
