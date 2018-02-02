@@ -3,54 +3,83 @@ body {
 	background: Azure;
 	font-size: 100%;
 	font-family: 'Arvo', serif;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
 }
 h1, h3, h4, h5, h6 {
 	color: Gold;
-	font-family: 'Bree Serif', serif;
-}
-h3 {
 	font-family: 'Arvo', serif;
+}
+h1 {
+	border-bottom: 8px groove DarkCyan;
+	border-radius: 150px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	background-color: Lavender;
+	font-variant: small-caps;
 }
 h2 {
 	color: LightSalmon;
+	font-family: 'Bree Serif', serif;
+	font-stretch
 }
 a {
 	color: DarkOrange;
 }
-p{
-	color: DarkSlateGray; 
+p {
+	color: black; 
 	font-family: 'Montserrat', sans-serif;
 }
 header {
-	font-color: LightCyan;
+	border: 10px double powderblue;
+    border-radius: 150px;
+    padding: 10px;
 	background: teal;
+	margin: 15px;
+	text-align: center;
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/07/14/54/umbrella-2046160_960_720.png");
+		background-repeat: no-repeat;
+		background-position: left top;
+		background-attachment: fixed;
 }
 footer {
+	border: 10px double powderblue;
+	border-radius: 100px;
+	color: white;
 	text-align: center;
 	background: teal;
-	padding: 1rem 0;
+	font-size: 100%;
+	padding: 20px;
+	margin: 15px;
+	background-image: url("https://cdn.pixabay.com/photo/2017/02/07/14/54/umbrella-2046160_960_720.png");
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		background-attachment: fixed;
 }
-footer a {
-	color: white;
-	font-size: 1rem;
-	padding: .75rem;
-}
-footer a:hover {
-	color: #FFB308;
-}
-footer a:first-of-type:hover {
-	color: green;
 }
 footer p::first-letter {
 	color: LightCyan;
 	font-size: 200%;
 }
 aside {
+	border: 10px double orange;
+	padding-left: 10px;
 	background-color: Beige;
+	margin-top: 10px;
 }
 .special {
-	background-color: Moccasin;
+	background-color: rgba(255, 228, 181, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
 }
 #unique {
-	background-color: RosyBrown;
+	background-color: rgba(188, 143, 143, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
 }
