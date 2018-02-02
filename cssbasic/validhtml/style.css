@@ -1,0 +1,33 @@
+body {
+  background: lightgreen;
+  font-size: 200%
+}
+
+p{
+color: teal
+}
+footer {
+  color: white;
+  text-align: center;
+  background: #2D8BCF;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: white;
+  font-size: 2rem;
+  padding: .75rem;
+}
+
+footer a:hover {
+  color: #EEC856;
+}
+
+footer a:not(.special) {
+  color: #8AC8E1;
+}
+
+footer p::first-letter {
+  color: #EEC856;
+  font-size: 150%;
+}
