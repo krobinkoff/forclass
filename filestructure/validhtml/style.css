@@ -12,7 +12,6 @@ h1, h3, h4, h5, h6 {
 	color: Gold;
 	font-family: 'Arvo', serif;
 	font-stretch: condensed;
-	font-kerning: normal;
 }
 h1 {
 	border-bottom: 8px groove DarkCyan;
@@ -84,13 +83,6 @@ aside {
 	padding-right: 10px;
 }
 #unique {
-	background-color: rgba(188, 143, 143, 0.9);
-	padding-left: 10px;
-	padding-top: 1px;
-	padding-bottom: 10px;
-	padding-right: 10px;
-}
-#bakground {
 	background-color: rgba(188, 143, 143, 0.9);
 	padding-left: 10px;
 	padding-top: 1px;
