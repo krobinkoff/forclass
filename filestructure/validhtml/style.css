@@ -45,10 +45,6 @@ header {
 	background: teal;
 	margin: 15px;
 	text-align: center;
-	background-image: url("https://orig00.deviantart.net/5bdd/f/2018/034/2/0/umbrella_2046160_by_nightmarezanez-dc23qgy.png");
-		background-repeat: no-repeat;
-		background-position: left top;
-		background-attachment: fixed;
 }
 footer {
 	border: 10px double powderblue;
@@ -59,10 +55,6 @@ footer {
 	font-size: 100%;
 	padding: 20px;
 	margin: 15px;
-	background-image: url("https://orig00.deviantart.net/5bdd/f/2018/034/2/0/umbrella_2046160_by_nightmarezanez-dc23qgy.png");
-		background-repeat: no-repeat;
-		background-position: left bottom;
-		background-attachment: fixed;
 }
 footer p::first-letter {
 	color: LightCyan;
