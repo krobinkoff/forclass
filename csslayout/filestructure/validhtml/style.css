@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bree+Serif|Montserrat');
+html {
+	font-size: 1rem;
+	margin: 0;
+}
+body {
+	background: lightcyan;
+	font-size: 1em;
+	font-family: 'Arvo', serif;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+}
+h1, h5, h6 {
+	color: gold;
+	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+	letter-spacing: 1.1px;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+h3 {
+	color: gold;
+	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+	letter-spacing: 1.1px;
+	text-shadow: 1px 1px 1px black;
+}
+a {
+	color: gold;
+	font-family: 'Arvo', serif;
+}
+h4 {
+	color: DarkCyan;
+	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+	letter-spacing: 1.1px;
+}
+h4.b {
+	color: gold;
+	font-family: 'Arvo', serif;
+	font-stretch: condensed;
+	letter-spacing: 1.1px;
+}
+h1 {
+	border-bottom: 8px groove darkcyan;
+	border-radius: 150px;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	background: linear-gradient(to right, whitesmoke, powderblue);
+	font-variant: small-caps;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+h2 {
+	color: lightsalmon;
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+a {
+	color: DarkOrange;
+}
+p {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-stretch: expanded;
+}
+section {
+	text-align: justify;
+    text-justify: inter-word;
+}
+header {
+	border: 10px double powderblue;
+    border-radius: 150px;
+    padding: 10px;
+	background: teal;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+footer {
+	border: 10px double powderblue;
+	border-radius: 100px;
+	color: white;
+	text-align: center;
+	background: teal;
+	font-size: 1em;
+	padding: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+footer p::first-letter {
+	color: lightcyan;
+	font-size: 2em;
+}
+footer a {
+  color: white;
+  padding: .5em;
+  font-size: 2em;
+}
+footer a:hover {
+	color: gold;
+}
+aside {
+	border: 10px double orange;
+	border-radius: 75px 0px 75px 0px;
+	padding-left: 25px;
+	background: linear-gradient(beige, lightgrey);
+	background-color: beige;
+	background-repeat: repeat-x;
+	margin-top: 10px;
+	display: block;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.image {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.special {
+	background-color: rgba(255, 228, 181, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+#unique {
+	background-color: rgba(188, 143, 143, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+section {
+	background-color: rgba(188, 143, 143, 0.9);
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.fab {
+	color: cyan;
+}
+ul.a {
+  list-style-position: outside;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-stretch: expanded;
+}
+.navbar {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+	background-color: rgba(188, 143, 143, 0.6);
+	border-radius: 150px;
+	padding: 10px;
+	margin: 0px 75px 0px 75px;
+	border: 10px double powderblue;
+	border-radius: 100px;
+}
+.item {
+	padding-right: 5;
+	order: 3;
+}
