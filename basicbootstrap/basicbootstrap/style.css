@@ -1,0 +1,14 @@
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+}
+.time {
+	width: 1150px;
+	margin: 0 auto;
+}
+.wide {
+	width: 1250px;
+	margin: 0 auto;
+}
