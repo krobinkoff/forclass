@@ -1,0 +1,33 @@
+body {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
+		background-repeat: no-repeat;
+		background-position: right top;
+		background-attachment: fixed;
+		background-color: powerblue;
+}
+.time {
+	width: 1150px;
+	margin: 0 auto;
+}
+.wide {
+	width: 1250px;
+	margin: 0 auto;
+}
+.kanjititle {
+	padding-top: 10px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.itemsize {
+	height: 600px;
+}
+.darkblue {
+	color: darkblue;
+}
