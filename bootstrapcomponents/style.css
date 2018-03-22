@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Overlock+SC|Ubuntu');
+html {
+	font-size: 1rem;
+	margin: 0;
+}
 body {
+	background-color: rgba(153, 255, 204, 0.5);
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
 		background-repeat: no-repeat;
 		background-position: right top;
 		background-attachment: fixed;
-		background-color: powerblue;
+}
+h2, h3, h4 {
+	font-family: 'IBM Plex Serif', serif;
+}
+p {
+	font-family: 'Ubuntu', sans-serif;
+}
+.topheading {
+	font-family: 'Overlock SC', cursive;
 }
 .time {
 	width: 1150px;
@@ -30,4 +44,32 @@ body {
 }
 .darkblue {
 	color: darkblue;
+}
+.link {
+	font-size: 1rem;
+}
+.somepadding {
+	padding-top: 10px;
+}
+.bordersquare {
+	border: 3px solid green;
+}
+.bordercircle {
+	border: 6px solid green;
+	border-radius: 1000px;
+	height: 160px;
+	width: 65%;
+}
+footer {
+	font-family: 'IBM Plex Serif', serif;
+	text-align: center;
+	font-size: 2em;
+}
+footer a {
+  color: white;
+  padding: .4em;
+  font-size: 2em;
+}
+footer a:hover {
+	color: darkgreen;
 }
