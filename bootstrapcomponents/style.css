@@ -1,23 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Overlock+SC|Ubuntu');
-html {
-	font-size: 1rem;
-	margin: 0;
-}
-@include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
-}
-@include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
-}
-@include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
-}
 body {
 	background-color: rgba(153, 255, 204, 0.5);
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bamboo_Brush_Painting.svg/376px-Bamboo_Brush_Painting.svg.png");
@@ -30,6 +11,21 @@ h2, h3, h4 {
 }
 p {
 	font-family: 'Ubuntu', sans-serif;
+}
+a:link {
+    color: LightSkyBlue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: underline;
 }
 .topheading {
 	font-family: 'Overlock SC', cursive;
@@ -50,9 +46,11 @@ p {
 }
 .carousel-inner {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 70%;
+}
+.carousel-item > img{
+    margin: auto;
 }
 .itemsize {
 	height: 600px;
@@ -75,6 +73,9 @@ p {
 	height: 160px;
 	width: 65%;
 }
+div.a {
+    line-height: normal;
+}
 footer {
 	font-family: 'IBM Plex Serif', serif;
 	text-align: center;
@@ -87,4 +88,17 @@ footer a {
 }
 footer a:hover {
 	color: darkgreen;
+}
+@media screen and (max-width: 700px) {
+	.navbar {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.nav-item {
+		padding: 5px 0;
+	}
+	body {
+		background: linear-gradient(powderblue, darkgrey);
+		background-repeat: repeat-x;
+	}
 }
