@@ -43,8 +43,48 @@ footer a {
 footer a:hover {
 	color: darkgreen;
 }
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 260px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: black; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding: 20px;
+}
+.sidenav a {
+    padding: 1px 2px 6px 16px;
+    color: LightSkyBlue;
+    background-color: transparent;
+    text-decoration: none;
+	display: block;
+}
+.sidenav a:hover {
+    color: pink;
+	background-color: transparent;
+    text-decoration: underline;
+}
+.sidenav a:active {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.marginleft {
+	margin-left: 200px;
+}
+.marginlefty {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.black {
+	background: black;
+	margin-left: 60px;
+}
 .topheading {
 	font-family: 'Overlock SC', cursive;
+	font-size: 50px;
 }
 .time {
 	padding-left: 10px;
@@ -67,13 +107,13 @@ footer a:hover {
 .carousel-inner {
 	display: block;
     margin: auto;
-    width: 70%;
+    width: 100%;
 }
 .carousel-item > img{
     margin: auto;
 }
 .itemsize {
-	height: 600px;
+	height: 500px;
 }
 .darkblue {
 	color: darkblue;
@@ -87,6 +127,19 @@ footer a:hover {
 .bg-info {
 	background-color:forestcolor;
 }
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 40%;
+}
 .bordersquare {
 	border: 3px solid green;
 }
@@ -94,7 +147,7 @@ footer a:hover {
 	border: 6px solid green;
 	border-radius: 1000px;
 	height: 160px;
-	width: 65%;
+	width: 80%;
 	-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 	position: relative;
@@ -114,75 +167,11 @@ footer a:hover {
 	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 	opacity: 0;
 }
-.make-it-slow {
-	position: relative;
-	display: inline-block;
-	background-color: #fff;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
-	transition: all 0.3s ease-in;
-}
-.make-it-slow:hover {
-	position: relative;
-	content: '';
-	box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.45);
-	transition: opacity 0.3s ease-in-out;
-	transform: scale(1.25, 1.25);
-	-webkit-transform: scale(1.25, 1.25);
-}
-.make-it-slow:hover::after {
-    opacity: 15;
-	transition: opacity 0.3s ease-in-out;
-}
-.fadein {
-	animation-duration: 3s;
-	animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-left: 300%;
-  }
-}
-.littleanimation {
-	width: 50px;
-	height: 50px;
-	margin-left: 30px;
-	margin-right: 25px;
-	animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
-}
-@keyframes square-to-circle {
-	0% {
-		border-radius:0%;
-		background:forestgreen;
-		transform:rotate(0deg);
-	}
-	20% {
-		border-radius:20%;
-		background:forestgreen;
-		transform:rotate(40deg);
-	} 
-	40%  {
-		border-radius:40%;
-		background:forestgreen;
-		transform:rotate(70deg);
-	}
-	60% {
-		border-radius:60%;
-		background:forestgreen;
-		transform:rotate(120deg);
-	}
-	80% {
-		border-radius:80%;
-		background:forestgreen;
-		transform:rotate(160deg);
-	}
-	100% {  
-		border-radius:100%;
-		background:forestgreen;
-		transform:rotate(200deg);
-	}
-}
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
 	body {
 		background: linear-gradient(powderblue, darkgrey);
 		background-repeat: repeat-x;
 	}
+	.sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
