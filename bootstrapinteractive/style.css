@@ -43,6 +43,16 @@ footer a {
 footer a:hover {
 	color: darkgreen;
 }
+.navbar a:hover {
+    color: pink;
+	background-color: transparent;
+    text-decoration: underline;
+}
+.navbar a:active {
+    color: GoldenRod;
+    background-color: transparent;
+    text-decoration: underline;
+}
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 260px; /* Set the width of the sidebar */
@@ -55,7 +65,7 @@ footer a:hover {
     padding: 20px;
 }
 .sidenav a {
-    padding: 1px 2px 6px 16px;
+    padding: 0px;
     color: LightSkyBlue;
     background-color: transparent;
     text-decoration: none;
@@ -70,6 +80,55 @@ footer a:hover {
     color: GoldenRod;
     background-color: transparent;
     text-decoration: underline;
+}
+.sidenav i {
+  display: none;
+  opacity: 0;
+}
+.sidenav a:hover i {
+  display: inline-block;
+  opacity: 1;
+}
+.icon {
+    display: inline-block;
+    font-size: inherit;
+    height: 15px;
+    width: 15px;
+	margin-right: 1px;
+    overflow: visible;
+    vertical-align: -.125em;
+    text-rendering: auto;
+    background-size: contain;
+}
+.icon-japan {
+    background: url(https://image.flaticon.com/icons/svg/774/774832.svg) no-repeat center center;
+}
+.icon-japan2 {
+    background: url(https://image.flaticon.com/icons/svg/541/541705.svg) no-repeat center center;
+}
+.icon-japan3 {
+    background: url(https://image.flaticon.com/icons/svg/188/188128.svg) no-repeat center center;
+}
+.icon-japan4 {
+    background: url(https://image.flaticon.com/icons/svg/541/541708.svg) no-repeat center center;
+}
+.icon-japan5 {
+    background: url(https://image.flaticon.com/icons/svg/140/140067.svg) no-repeat center center;
+}
+.icon-japan6 {
+    background: url(https://image.flaticon.com/icons/svg/678/678122.svg) no-repeat center center;
+}
+.icon-japan7 {
+    background: url(https://image.flaticon.com/icons/svg/579/579114.svg) no-repeat center center;
+}
+.icon-japan8 {
+    background: url(https://image.flaticon.com/icons/svg/774/774863.svg) no-repeat center center;
+}
+.icon-japan9 {
+    background: url(https://image.flaticon.com/icons/svg/774/774871.svg) no-repeat center center;
+}
+.icon-japan10 {
+    background: url(https://image.flaticon.com/icons/svg/385/385937.svg) no-repeat center center;
 }
 .marginleft {
 	margin-left: 200px;
