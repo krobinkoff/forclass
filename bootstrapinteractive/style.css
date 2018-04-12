@@ -9,9 +9,6 @@ body {
 h2, h3, h4 {
 	font-family: 'IBM Plex Serif', serif;
 }
-.smallertext {
-	font-size: 12px;
-}
 p {
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -144,6 +141,9 @@ footer a:hover {
 	background: black;
 	margin-left: 60px;
 }
+.smallertext {
+	font-size: 12px;
+}
 .topheading {
 	font-family: 'Overlock SC', cursive;
 	font-size: 50px;
@@ -152,8 +152,16 @@ footer a:hover {
 	padding-left: 10px;
 	padding-top: 1px;
 	padding-right: 10px;
-	margin-left: 89px;
-	margin-right: 89px;
+	padding-bottom: 1px;
+	margin-bottom: 10px;
+	margin-left: 80px;
+	margin-right: 50px;
+	margin-top: 16px;
+}
+.time2 {
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-right: 10px;
 	margin-top: 16px;
 }
 .wide {
